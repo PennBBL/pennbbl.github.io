@@ -1,7 +1,8 @@
 ---
 layout: default
-title: BIDS Curation
-parent: Flywheel
+title: Fwheudiconv
+parent: Bids Curation
+grand_parent: Flywheel
 nav_order: 2
 ---
 
