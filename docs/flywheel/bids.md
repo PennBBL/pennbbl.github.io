@@ -531,6 +531,7 @@ MetadataExtras = {
     }
 }
 ```
+*For diffusion data, for the BIDS validator to work, you will need to add 2 other extra metatda fields: (1) "EffectiveEchoSpacing" and (2) "TotalReadoutTime". You should be able to get these values from your initial protocol. 
 
 A last option is adding `IntendedFor` lists that specify which scan templates are dependent on specific fieldmap templates. In this case, the fieldmaps below are *intended for* fieldmap correction in any file that matches the template in the list:
 
@@ -547,7 +548,7 @@ Finish writing your heuristic and save the file as a Python script (a file with 
 
 ## Step 3: Running `fw-heudiconv-curate`
 
-Lastly, you will run the curation tool to apply your changes.
+You will run the curation tool to apply your changes.
 
 **At the command line**
 ```
@@ -566,3 +567,12 @@ Use the flags `--subject <subject list>` and/or `--session <sessions list>` to f
 6. In the "Configuration" tab, check/uncheck "Do whole project", based on your preference. If not checked, `fw-heudiconv` will operate only on the session the gear initiated from.
 7. In the "Configuration" tab, check/uncheck "Dry run". Dry run just prints all of the proposed changes to the console, which is stored in the gear log. Otherwise, it will apply the changes to the project.
 8. Hit "Run Gear".
+
+## Step 4: Running `fw-heudiconv-validate`
+
+Lastly, you will run the validation tool for your BIDS dataset.
+
+**At the command line**
+```
+fw-heudiconv-validate --project 'MyProject' --flywheel
+```
