@@ -137,7 +137,7 @@ def iter_replace_dict_nans(input_dict):
     for key, value in input_dict.items():
         if isinstance(value, dict):
             iter_replace_dict_nans(value)
-        elif pd.isna(value):
+        elif value != value:
             input_dict[key] = None
 iter_replace_dict_nans(fullDict)
 
