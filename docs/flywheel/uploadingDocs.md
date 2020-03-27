@@ -73,7 +73,7 @@ python customInfoUploader.py -d flavortown.csv -p GUY_FIERI -n recipes
 
 *NOTE: Prior to uploading, please sign into a flywheel session in your environment. See here for instructions: https://flywheel-io.github.io/core/branches/master/python/getting_started.html*
 
-See below for the script. You can also find it here: https://github.com/diegodav/general_customInfoUploader/blob/master/customInfoUploader.py
+See below for the script. You can also find it here: https://github.com/PennBBL/grmpy/blob/master/miscellaneous/customInfoUploader.py
 
 ```
 #####################################################################################
