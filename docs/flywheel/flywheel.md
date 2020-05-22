@@ -2,7 +2,7 @@
 
 layout: redirect
 
-redirect: https://PennLINC.github.io/docs/flywheel/
+redirect: https://PennLINC.github.io/docs/flywheel
 
 title: Flywheel
 
