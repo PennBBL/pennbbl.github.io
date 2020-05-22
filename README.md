@@ -1,3 +1,7 @@
+# ATTN: The lab is rebranding!
+
+You can now find us at [PennLINC](https://PennLINC.github.io/) -- Penn Lifespan Imaging and Neuroinformatics Center
+
 # BBL Documentation
 
 This is a site with information on how to do informatics work in the BBL.
