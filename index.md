@@ -15,6 +15,7 @@ permalink: /
 
 ---
 
+# ATTN: This site has moved! Please visit [PennLINC.github.io](https://PennLINC.github.io/)
 ## Getting started
 
 This site documents knowledge and practices in informatics, engineering, and systems administration for members of LINC. If you need to know:
