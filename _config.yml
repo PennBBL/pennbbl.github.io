@@ -49,6 +49,7 @@ color_scheme: nil
 ga_tracking: UA-2709176-10
 
 plugins:
+  - jekyll-redirect-from
   - jekyll-seo-tag
 
 compress_html:

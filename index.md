@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
+redirect: https://PennLINC.github.io
 title: Home
 nav_order: 1
 description: "Information and tutorials on how to go from DICOMS to dataframes."
